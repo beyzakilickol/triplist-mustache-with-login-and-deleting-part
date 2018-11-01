@@ -1,0 +1,21 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/site.css"/>
+</head>
+<body>
+  Hey!
+  <form action="/registerUser" method="POST">
+   <label>Enter your username:<input type="text" name="username"/></label>
+   <label>Enter your password:<input type="password" name="password"/></label>
+   <input type="submit" value="Register"/>
+  </form>
+  <!-- <a>Don't have an account?</a> -->
+  <form action="/login" method="POST">
+    <label>Enter your username:<input type="text" name="username"/></label>
+    <label>Enter your password:<input type="password" name="password"/></label>
+    <input type="submit" value="Login"/>
+  </form>
+
+</body>
+<script src="/login.js"></script>
+</html>
